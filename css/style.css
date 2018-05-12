@@ -41,26 +41,20 @@ body {
   
   /* header */
   .mHeading {
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    margin: 0 0 30px;
-    overflow: auto;
     color: #fff;
-    background: #fff;
-    border-bottom: 2px solid #ccc;
+    background: #666;
+    border-bottom: 8px solid #c43e3e;
 }
 .specialNameHeader {
     float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color:#ffffff;
+    color:#4aaaa5;
     text-align: center;
     width: 250px;
     height: 90px;
     line-height: 90px;
     font-size: 30px;
     font-weight: 700;
-    background: #4aaaa5;
     border-bottom: none;
     margin-bottom: 0;
 }
@@ -84,6 +78,7 @@ li {
     text-decoration: none;
     border-left: 1px solid #efefef;
 }
+
 
 .nav a:first-child {
     border-left: 0 none;
