@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rylie Johnson - Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg nav-light bg-light">
+        <a class="navbar-brand" href="#">Rylie Johnson</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container main-content">
+        <selection class="main-section">
+            <h1>About Me</h1>
+            <p class="content">
+                <img class="face" src="images/bowlcut_swag.jpg" alt="My Face">Bonjour! I'm Rylie, named after the song "<a href="https://www.youtube.com/watch?v=Kl2_hJ0DXDw" class="content">The Life of Riley</a>" by the Lightning Seeds. The chorus line "It's certain nothing's certain" has really
+                come to capture my approach on life.</p>
+            <p class="content">In 2016, I graduated from the University of Wisconsin - Stout with a Bachelor of Science in Professional Communications
+                &amp; Emerging Media, a concentration in Digital Humanities, an applied field in Global Studies, and an Art
+                minor. During my time at Stout, I also studied abroad for a semester at Zhejiang International Studies University
+                in Hangzhou. Since graduation, I've been invited back to present to classes and judge art competitions.</p>
+            <p class="content">I used to work as a Digital Content Specialist at an IoT company in Minneapolis and developed a curiosity for
+                coding there. I was constantly impressed with the different applications that were coming out of hackathons
+                or presented at conferences. When I left, I figured it would be the perfect time to enhance my skills and
+                become known as more than just some "social media person". So onto bootcamp!</p>
+        </selection>
+    </div>
+
+    <div class="container main-content">
+        <selection class="main-section portfolio">
+            <h1>Portfolio</h1>
+            <div class="card tile">
+                <a href="https://newageairbender.github.io/Take_Me_Away/">
+                    <img class="card-img-top" src="images/fanart.jpg" alt="Black Books Train">
+                    <div class="card-body">
+                        <h4 class="card-text">Train Time Table</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="card tile">
+                <a href="https://newageairbender.github.io/Get_Giffy_with_It/">
+                    <img class="card-img-top" src="images/cirque.jpg" alt="Circus">
+                    <div class="card-body">
+                        <h4 class="card-text">GIPHY API</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="card tile">
+                <a href="https://mchaffin.github.io/MiddleMeetUp/index.html">
+                    <img class="card-img-top" src="images/background.jpg" alt="Places Bar">
+                    <div class="card-body">
+                        <h4 class="card-text">MiddleMeetUp</h4>
+                    </div>
+                </a>
+            </div>
+        </selection>
+    </div>
+
+    <div class="container main-content">
+        <selection class="main-section portfolio">
+            <h1>Let's Connect</h1>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="note">Note</label>
+                        <textarea class="form-control" id="note" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Submit</button>
+                    </form>
+                </div>
+                <div class="col">
+                    <h4>Social Links</h4>
+
+                </div>
+            </div>
+        </selection>
+    </div>
+
+    <footer>Copyright &copy;</footer>
+</body>
+
+</html>
